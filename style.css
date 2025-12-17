@@ -1,12 +1,12 @@
 :root {
-  --bg: #0f172a;
-  --card: #111827;
   --text: #e5e7eb;
   --muted: #9ca3af;
   --accent: #22c55e;
   --danger: #ef4444;
-  --border: #1f2937;
   --focus: #3b82f6;
+  --bg: #1a2336;   
+  --card: #1c2533;  
+  --border: #2a3448; 
 }
 
 body {
