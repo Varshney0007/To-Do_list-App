@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple To-Do</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app" aria-labelledby="app-title">
+    <header>
+      <h1 id="app-title">To-Do</h1>
+      <p class="sub">Quick tasks, saved in your browser.</p>
+    </header>
+
+    <section class="controls" aria-label="Add a new task">
+      <input id="new-task" type="text" placeholder="Add a task and press Enter…" aria-label="Task title" />
+      <button id="add-btn" class="btn-primary" aria-label="Add task">Add</button>
+    </section>
+
+    <nav class="filters" aria-label="Filter tasks">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="active">Active</button>
+      <button class="filter" data-filter="completed">Completed</button>
+      <button id="clear-completed" class="filter" aria-label="Clear completed">Clear completed</button>
+    </nav>
+
+    <ul id="list" aria-live="polite" aria-label="Task list"></ul>
+    <div id="empty" class="empty" hidden>No tasks yet. Add one above.</div>
+
+    <footer class="footer">
+      <span id="count">0 items</span>
+      <button id="clear-all" class="btn-clear" aria-label="Clear all tasks">Clear all</button>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
