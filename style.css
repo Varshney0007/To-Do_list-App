@@ -4,9 +4,9 @@
   --accent: #22c55e;
   --danger: #ef4444;
   --focus: #3b82f6;
-  --bg: #1a2336;   
-  --card: #1c2533;  
-  --border: #2a3448; 
+    --bg: #1c2740;       /* lighter than #0f172a */
+  --card: #1f293d;     /* lighter than #111827 */
+  --border: #2d3a52; 
 }
 
 body {
